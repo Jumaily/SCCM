@@ -103,3 +103,5 @@ GROUP BY VRS.Netbios_Name0,VRS.Client0,VRS.Active0,v_GS_SYSTEM_ENCLOSURE.Chassis
 	Computer_System_DATA.Model00,Computer_System_DATA.SystemType00,v_GS_COMPUTER_SYSTEM.Domain0,
 	Vrs.User_Domain0,Vrs.User_Name0,v_R_User.Mail0,v_GS_COMPUTER_SYSTEM.DomainRole0,Operating_System_DATA.Caption00,
 	Operating_System_DATA.CSDVersion00,Operating_System_DATA.Version00,v_GS_X86_PC_MEMORY.TotalPhysicalMemory0,v_GS_WORKSTATION_STATUS.LastHWScan
+		 
+		 
