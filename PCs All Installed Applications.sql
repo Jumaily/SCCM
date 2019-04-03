@@ -10,3 +10,4 @@ FROM V_R_System VRS
     LEFT Join v_FullCollectionMembership as Col on VRS.ResourceID = Col.ResourceID
 WHERE VRS.Client0 = 1 AND VRS.Obsolete0 = 0
 ORDER BY VRS.Name0, App.ProductVersion0
+
