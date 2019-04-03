@@ -30,3 +30,4 @@ FROM v_R_System as Vrs
     LEFT JOIN v_GS_PC_BIOS as VPB on vrs.ResourceID=vpb.ResourceID
     LEFT JOIN v_GS_COMPUTER_SYSTEM as VGC on vrs.ResourceID=vgc.ResourceID
 WHERE GNA.IPAddress0 IS NOT NULL AND vd.MediaType0 LIKE 'Fixed hard disk media'
+
